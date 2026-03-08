@@ -1,0 +1,31 @@
+{
+  "name": "mi-primer-pipeline",
+  "version": "1.0.0",
+  "description": "primer pipeline en SO",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint .",
+    "prettier": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UntalivanCruz/mi-primer-pipeline.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/UntalivanCruz/mi-primer-pipeline/issues"
+  },
+  "homepage": "https://github.com/UntalivanCruz/mi-primer-pipeline#readme",
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.5",
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.0.3",
+    "globals": "^17.4.0",
+    "jest": "^30.2.0",
+    "prettier": "^3.8.1"
+  }
+}
